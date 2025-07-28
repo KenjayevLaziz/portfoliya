@@ -25,6 +25,13 @@ const projects = [
     image: "../../public/images/timer.jpg",
     link: "https://timer-five-jade.vercel.app",
   },
+  {
+    name: "Yemak Desktop version",
+    year: "2024",
+    align: "left",
+    image: "../../public/images/yemak.jpg",
+    link: "https://yemak1.vercel.app/",
+  },
 ];
 
 const ProjectsMain = () => {

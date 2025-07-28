@@ -4,8 +4,5 @@
 @tailwind utilities;
 
 body {
-  *{
-    outline: 1px solid blueviolet;
-  }
   @apply bg-darkBrown;
 }
