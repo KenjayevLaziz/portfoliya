@@ -1,4 +1,8 @@
 import ProjectsText from "./ProjectsText";
+import git from "../../../public/images/git.jpg";
+import timer from "../../../public/images/timer.jpg";
+import yemak from "../../../public/images/yemak.jpg";
+import calc from "../../../public/images/clac.jpg";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -8,28 +12,28 @@ const projects = [
     name: "Calculator",
     year: "2024",
     align: "right",
-    image: "../../public/images/clac.jpg",
+    image: calc,
     link: "https://calc-alpha-seven.vercel.app",
   },
   {
     name: "GitHub Finder",
     year: "2024",
     align: "left",
-    image: "../../public/images/git.jpg",
+    image: git ,
     link: "https://git-nine-lemon.vercel.app/",
   },
   {
     name: "Timer",
     year: "2024",
     align: "right",
-    image: "../../public/images/timer.jpg",
+    image: timer,
     link: "https://timer-five-jade.vercel.app",
   },
   {
     name: "Yemak Desktop version",
     year: "2024",
     align: "left",
-    image: "../../public/images/yemak.jpg",
+    image: yemak,
     link: "https://yemak1.vercel.app/",
   },
 ];
